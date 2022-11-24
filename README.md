@@ -59,7 +59,7 @@ docker run -it --rm -v $(pwd):/code --workdir /code maven mvn clean compile -e
 
 ### Test Code
 docker run -it --rm -v $(pwd):/code --workdir /code maven mvn clean test -e
-
+o
 ### Jar Code
 docker run -it --rm -v $(pwd):/code --workdir /code maven mvn clean package -e
 
